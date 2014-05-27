@@ -18,6 +18,6 @@ Exposed API
   - **whenCancelled(callback)**: Registers a callback to be run when the token is cancelled. The callback runs right away if the token is already cancelled.
   - **whenCancelledBefore(callback, otherToken)**: Registers a callback to be run when the receiving token is cancelled, unless the other token is cancelled first.
 - **CancelToken.Source**
-  - *(constructor)*: Creates a new source that controls a new token.
+  - *(constructor)* **()**: Creates a new source that controls a new token.
   - **getToken()**: Returns the token controlled by the source.
   - **cancel()**: Attempts to cancel the controlled token, returning false if it was not still cancellable.
