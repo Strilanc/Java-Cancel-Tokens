@@ -6,7 +6,7 @@ This library implements a `CancelToken`, a tool for making cleanup easier. It is
 Installation
 ============
 
-Currently the library is a single file, `src/com/strilanc/async/CancelToken.java`, so installation consists of copying that file into your project and changing the package if it annoys you. I will expose it as a proper package if there is interest.
+Currently the library is a single file, [`src/com/strilanc/async/CancelToken.java`](https://github.com/Strilanc/Java-Cancel-Tokens/blob/master/src/com/strilanc/async/CancelToken.java), so installation consists of copying that file into your project and changing the package if it annoys you. I will expose it as a proper package if there is interest.
 
 Exposed API
 ===========
